@@ -1,1 +1,1 @@
-https://vojiik.github.io/itstep-cv/cv
+https://vojiik.github.io/itstep/CV
