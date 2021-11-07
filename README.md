@@ -1,1 +1,0 @@
-https://vojiik.github.io/itstep/cv
