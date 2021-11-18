@@ -1,0 +1,13 @@
+body{
+    background-color: #f8f8f8;
+}
+.menu{
+    list-style: none;
+}
+
+a{
+    font-size: 20px;
+    color: purple;
+    text-decoration: none;
+    font-style: normal;
+}
