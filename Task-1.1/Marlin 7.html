@@ -6,35 +6,86 @@
     <link rel="stylesheet" href="csscadence.css">
 </head>
 <body>
-<h1 class="center">Добро пожаловать в веломагазин "Cadence"</h1>
-<ul class="menu" >
-    <li><a href="index.html">Главная</a></li>
-    <li><a href="Contacts.html">Контакты</a></li>
-    <li><a href="registry.html">Регистрация</a>
-    <li><a href="My%20room.html">Личный кабинет</a></li>
-    <li><a href=bike.html>Велосипеды</a></li>
-    <li><a href="Parts.html">Запчасти</a>
-    <li><a href="Acessories.html">Аксессуары</a></li>
-</ul>
-<hr width="600" color="black">
+<div class="header">
+    <img class="logomain" src="./Store%20img/logoCadence.png" alt="photo" width="100px">
+    <h1 class="center headone" >Добро пожаловать в веломагазин "Cadence"</h1>
+
+    <div>
+        <ul class="menu">
+            <li><a class="link" href="index.html">Главная</a></li>
+            <li><a class="link" href="Contacts.html">Контакты</a></li>
+            <li><a class="link" href="registry.html">Регистрация</a>
+            <li><a class="link" href="My%20room.html">Личный кабинет</a></li>
+            <li><a class="link" href=bike.html>Велосипеды</a></li>
+            <li><a class="link" href="Parts.html">Запчасти</a>
+            <li><a class="link" href="Acessories.html">Аксессуары</a></li>
+            <br>
+        </ul>
+    </div>
+</div>
+<hr>
 <img class="imgbike" src="./Store%20img/TrekM7.jpg" alt="photo" width="40%">
 <h3>Технические характеристики:</h3>
 <!-- Заненено на ul -->
-<ul>
-    <li class="formatlist"><b>Рама</b> Trek (AL 6061)</li>
-    <li class="formatlist"><b>Вилка</b> Rock shox XC30</li>
-    <li class="formatlist"><b>Колеса</b> Formula tlr 29</li>
-    <li class="formatlist"><b>Тормоза</b> Tektro Auriga</li>
-    <li class="formatlist"><b>Система шатунов</b> Shimano Altus</li>
-    <li class="formatlist"><b>Кассета</b> Shimano HG-200</li>
-    <li class="formatlist"><b>Цепь</b> KMC x9</li>
-    <li class="formatlist"><b>Задний переключатель</b> Shimano Acera</li>
-    <li class="formatlist"><b>Монетки</b> Shimano Altus</li>
-    <li class="formatlist"><b>Седло</b> Bontrager comp 143</li>
-    <li class="formatlist"><b>Грипсы</b> Bontrager</li>
-</ul>
+
+<table>
+    <caption>
+        Технические характеристики:
+    </caption>
+    <colgroup>
+        <col class="col1">
+        <col class="col2">
+    </colgroup>
+    <tr>
+        <th>Рама</th>
+        <td>Trek (AL 6061)</td>
+    </tr>
+    <tr>
+        <th>Вилка</th>
+        <td>Rock shox XC30</td>
+    </tr>
+    <tr>
+        <th>Колеса</th>
+        <td>Formula tlr 29</td>
+    </tr>
+    <tr>
+        <th>Тормоза</th>
+        <td>Tektro Auriga</td>
+    </tr>
+    <tr>
+        <th>Система шатунов</th>
+        <td>Shimano Altus</td>
+    </tr>
+    <tr>
+        <th>Кассета</th>
+        <td>Shimano HG-200</td>
+    </tr>
+    <tr>
+        <th>Цепь</th>
+        <td>KMC x9</td>
+    </tr>
+    <tr>
+        <th>Задний переключатель</th>
+        <td>Shimano Acera</td>
+    </tr>
+    <tr>
+        <th>Монетки</th>
+        <td>Shimano Altus</td>
+    </tr>
+    <tr>
+        <th>Седло</th>
+        <td>Bontrager comp 143</td>
+    </tr>
+    <tr>
+        <th>Грипсы</th>
+        <td>Bontrager</td>
+    </tr>
+</table>
+<br>
     <input type="button" onclick="history.back();" value="Назад"/>
-<hr width="600" color="black">
-<footer class="center">&copy;vojiik Все права защищены.</footer>
+<hr>
+<div class="footer">
+    <p>&copy;vojiik Все права защищены.</p>
+</div>
 </body>
 </html>

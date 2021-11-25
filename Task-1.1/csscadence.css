@@ -1,8 +1,24 @@
 body{
     background-color: #f8f8f8;
 }
+.header{
+    background-color: antiquewhite;
+}
+.logomain{
+    display: inline-block;
+    margin:  0 160px 0 0;
+}
+.headone{
+    display: inline-block;
+}
+.headone:hover{
+    color: black;
+}
 .menu{
     list-style: none;
+}
+.link:hover{
+    color: purple;
 }
 a{
     font-size: 20px;
@@ -37,11 +53,18 @@ h1{
     height: 30px;
     font-size: 20px;
 }
+.mail:focus{
+   background-color: silver;
+    color: red;
+}
 .inp::placeholder{
     color: darkolivegreen;
 }
 .imgbike{
-    border: 3px rebeccapurple solid;
+    border: 3px rgb(102, 51, 153) solid;
+}
+.imgbike:hover{
+    border: 3px solid rgb(102, 51, 153, 0.0);
 }
 .btn{
     width: 150px;
@@ -53,4 +76,33 @@ h1{
 }
 .myroominter{
     font-weight: 800;
+}
+hr{
+    background-color: black;
+    height: 2px;
+    width: 600px;
+}
+.footer{
+    text-align: center;
+    background-color: antiquewhite;
+}
+.littlebig{
+text-transform: capitalize;
+}
+table{
+    border: black 2px solid;
+    border-collapse: collapse;
+}
+td, tr, th{
+    border: black 1px solid;
+    padding: 3px;
+}
+.col1{
+    background-color: aliceblue;
+}
+.col2{
+    background-color: aquamarine;
+}
+caption{
+    color: darkslategray;
 }
