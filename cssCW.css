@@ -1,0 +1,29 @@
+.winter{
+    list-style-image: url("./icons/winter_16.png");
+}
+
+.spring{
+    list-style-image: url("./icons/spring_16.png");
+}
+
+.summer{
+    list-style-image: url("./icons/summer_16.png");
+}
+
+.Autumn{
+    list-style-image: url("./icons/autumn_16.png");
+}
+
+.Year{
+list-style-type: none;
+}
+
+
+
+.one{
+    list-style-type: upper-roman;
+}
+
+.two{
+    list-style-type: lower-alpha;
+}
