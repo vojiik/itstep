@@ -2,20 +2,33 @@ body{
     background-color: #f8f8f8;
 }
 .header{
-    background-color: antiquewhite;
+    background-image: url("./Store img/backgroundshop.jpg");
+    height: 230px;
 }
 .logomain{
     display: inline-block;
     margin:  0 160px 0 0;
+    padding: 10px;
 }
 .headone{
-    display: inline-block;
+    display: block;
+    font-size: 50px;
 }
-.headone:hover{
+.link{
+    margin-right: 40px;
     color: black;
+}
+.headone:hover {
+    color: black;
+}
+.logomenu{
+    display: flex;
+    justify-content: space-between;
 }
 .menu{
     list-style: none;
+    display: flex;
+    justify-content: space-between;
 }
 .link:hover{
     color: purple;
@@ -44,6 +57,7 @@ a{
     font-size: 14px;
     font-style: italic;
     text-align: left;
+    width: 420px;
 }
 h1{
     color: darkgray;
@@ -83,8 +97,12 @@ hr{
     width: 600px;
 }
 .footer{
-    text-align: center;
-    background-color: antiquewhite;
+    display: flex;
+    height: 70px;
+   justify-content: flex-end;
+    align-items: center;
+    padding-right: 30px;
+    background-image: url("./Store img/backgroundshop.jpg");
 }
 .littlebig{
 text-transform: capitalize;
@@ -105,4 +123,41 @@ td, tr, th{
 }
 caption{
     color: darkslategray;
+}
+
+/* Task-1.5*/
+.container{
+    margin: auto;
+    width: 95%;
+   min-height: 1vh;
+    display: flex;
+    flex-direction: column;
+}
+.shopbike{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn-bue{
+width: 100px;
+height: 30px;
+font-weight: 600;
+border-radius: inherit;
+}
+.btn-bue:hover{
+    background-color: aquamarine;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+}
+.horisont{
+    display: flex;
+    justify-content: space-around;
+}
+.map{
+    width: 100%;
+    height: 374px;
 }
