@@ -1,0 +1,163 @@
+body{
+    background-color: #f8f8f8;
+}
+.header{
+    background-image: url("./Store img/backgroundshop.jpg");
+    height: 230px;
+}
+.logomain{
+    display: inline-block;
+    margin:  0 160px 0 0;
+    padding: 10px;
+}
+.headone{
+    display: block;
+    font-size: 50px;
+}
+.link{
+    margin-right: 40px;
+    color: black;
+}
+.headone:hover {
+    color: black;
+}
+.logomenu{
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.link:hover{
+    color: purple;
+}
+a{
+    font-size: 20px;
+    color: darkslateblue;
+    text-decoration: none;
+    font-style: normal;
+}
+.formatlist{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+    list-style-image: url("./Store img/bike1616.png");
+}
+.trek{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+.opisanie{
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    text-align: left;
+    width: 420px;
+}
+h1{
+    color: darkgray;
+}
+.inp{
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+}
+.mail:focus{
+   background-color: silver;
+    color: red;
+}
+.inp::placeholder{
+    color: darkolivegreen;
+}
+.imgbike{
+    border: 3px rgb(102, 51, 153) solid;
+}
+.imgbike:hover{
+    border: 3px solid rgb(102, 51, 153, 0.0);
+}
+.btn{
+    width: 150px;
+    height: 25px;
+    border-radius: 20px;
+}
+.center{
+    text-align: center;
+}
+.myroominter{
+    font-weight: 800;
+}
+hr{
+    background-color: black;
+    height: 2px;
+    width: 600px;
+}
+.footer{
+    display: flex;
+    height: 70px;
+   justify-content: flex-end;
+    align-items: center;
+    padding-right: 30px;
+    background-image: url("./Store img/backgroundshop.jpg");
+}
+.littlebig{
+text-transform: capitalize;
+}
+table{
+    border: black 2px solid;
+    border-collapse: collapse;
+}
+td, tr, th{
+    border: black 1px solid;
+    padding: 3px;
+}
+.col1{
+    background-color: aliceblue;
+}
+.col2{
+    background-color: aquamarine;
+}
+caption{
+    color: darkslategray;
+}
+
+/* Task-1.5*/
+.container{
+    margin: auto;
+    width: 95%;
+   min-height: 1vh;
+    display: flex;
+    flex-direction: column;
+}
+.shopbike{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn-bue{
+width: 100px;
+height: 30px;
+font-weight: 600;
+border-radius: inherit;
+}
+.btn-bue:hover{
+    background-color: aquamarine;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+}
+.horisont{
+    display: flex;
+    justify-content: space-around;
+}
+.map{
+    width: 100%;
+    height: 374px;
+}
