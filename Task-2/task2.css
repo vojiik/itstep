@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    border: 1px solid black;
+    background-color: white;
+    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+    margin: 0 auto;
+    width: 1366px;
+    min-height: 768px;
+    padding: 39px 113px 60px 113px;
+}
+.bw{
+    position: relative;
+    width: 32px;
+}
+.bw1{
+position: absolute;
+    /* blue_02 */
+    background: #316099;
+    width: 30.39px;
+    height: 32px;
+    border-radius: 50%;
+}
+.bw2{
+position: absolute;
+    left: 16px;
+    background: #FFFFFF;
+    /* blue_02 */
+    border: 2px solid #316099;
+    box-sizing: border-box;
+    width: 30.39px;
+    height: 32px;
+    border-radius: 50%;
+}
+.uphead{
+    display: flex;
+    justify-content: space-between;
+}
+.img1{
+    display: flex;
+    justify-content: end;
+}
+.newauto{
+    display: flex;
+    flex-direction: column;
+    width: 504px;
+    margin-top: 85px;
+}
+.buttonhead{
+    width: 220px;
+    height: 56px;
+    /* blue_04 */
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    /* identical to box height, or 162% */
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+.h1{
+    width: 504px;
+    height: 148px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 74px;
+    /* or 116% */
+    letter-spacing: 0.04em;
+    /* Blue_01 */
+    color: #1F3F68;
+}
+.p1{
+    width: 425px;
+    height: 82px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    letter-spacing: 0.05em;
+    /* Blue_01 */
+    color: #1F3F68;
+    opacity: 0.6;
+}
+
+
+
+
+.main{
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 1366px;
+    min-height: 768px;
+}
+
+
+
+
+
+.footer{
+    position: relative;
+    width: 1366px;
+    background-color: rgba(49, 96, 153, 1);
+    margin: 0 auto;
+    height: 657px;
+}
+.pad{
+    padding: 91px 113px 0 113px;
+}
+.pad1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 113px;
+}
+.linef{
+    opacity: 0.4;
+    /* white */
+    border: 1px solid #FFFFFF;
+
+}
+.intersted{
+}
+.fbutton{
+    position: absolute;
+    width: 236.63px;
+    height: 56px;
+    left: 1015px;
+    top: 165px;
+    background-color: #5A98D0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+.ftext{
+}
+.pfoot{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 46px;
+    /* or 128% */
+    letter-spacing: 0.05em;
+    /* white */
+    color: white;
+    width: 341px;
+    height: 92px;
+}
+.plorem{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    /* white */
+    color: #FFFFFF;
+    opacity: 0.6;
+    width: 490px;
+    height: 80px;
+    padding: 0 10px 0 0;
+    margin-top: 32px;
+    margin-bottom: 96px;
+}
+.ftable{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    letter-spacing: 0.05em;
+    /* white */
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    padding: 64px 0px 32px 0;
+}
+.arr{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+         /* white */
+         color: #FFFFFF;
+         opacity: 0.4;
+    padding: 32px 113px 64px 0;
+     }
+.pt{
+    width: 316px;
+    padding-left: 19px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+}
+.pt1{
+height: 48px;
+}
