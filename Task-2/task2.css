@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
 .header{
     background-color: white;
     background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
@@ -12,10 +14,12 @@
     min-height: 768px;
     padding: 39px 113px 60px 113px;
 }
+
 .bw{
     position: relative;
     width: 32px;
 }
+
 .bw1{
 position: absolute;
     /* blue_02 */
@@ -24,6 +28,7 @@ position: absolute;
     height: 32px;
     border-radius: 50%;
 }
+
 .bw2{
 position: absolute;
     left: 16px;
@@ -35,19 +40,23 @@ position: absolute;
     height: 32px;
     border-radius: 50%;
 }
+
 .uphead{
     display: flex;
     justify-content: space-between;
 }
+
 .img1{
     display: flex;
     justify-content: end;
 }
+
 .newauto{
     display: flex;
     flex-direction: column;
     width: 504px;
 }
+
 .buttonhead{
     width: 220px;
     height: 56px;
@@ -61,14 +70,22 @@ position: absolute;
     color: #FFFFFF;
     border: 0;
     margin-top: 71px;
+    cursor: pointer;
 }
+
+.buttonhead:active{
+    opacity: 80%;
+}
+
 .illus{
     display: flex;
 
 }
+
 .imgtop{
     margin: 82px 87px 60px 13px;
 }
+
 .h1{
     box-sizing: border-box;
     width: 504px;
@@ -84,6 +101,7 @@ position: absolute;
     color: #1F3F68;
     margin-top: 85px;
 }
+
 .p1{
     box-sizing: border-box;
     width: 425px;
@@ -101,16 +119,17 @@ position: absolute;
     margin-top: 32px;
 }
 
-
-
+/* MAINCSS*/
 
 .main{
-    border: 1px solid black;
     margin: 0 auto;
     width: 1366px;
     min-height: 768px;
     padding: 113px;
+    display: flex;
+    flex-direction: column;
 }
+
 .h1main{
     box-sizing: border-box;
     font-family: Roboto;
@@ -124,7 +143,9 @@ position: absolute;
     color: #1F3F68;
     width: 294px;
     height: 56px;
+    margin: 50px 0 15px 0;
 }
+
 .h3Lorem{
     box-sizing: border-box;
     font-family: Roboto;
@@ -139,21 +160,27 @@ position: absolute;
     opacity: 0.6;
     width: 268px;
     height: 94px;
+    margin-bottom: 28px;
 }
+
 .mainborder{
-    border: 1px solid black;
     background: #FFFFFF;
     /* shadow1 */
     box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
     border-radius: 10px;
     width: 358px;
     height: 480px;
+    padding: 43px 32px;
 }
+
 .border3{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    margin: 64px 0;
+    flex-direction: row;
+
   }
+
 .p2{
     font-family: Roboto;
     font-style: normal;
@@ -166,12 +193,122 @@ position: absolute;
     color: #000000;
     width: 1137px;
     height: 41px;
-    margin: 64px 114px;
+    margin: 0 0;
 }
 
+.learnmore{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    /* or 214% */
+    letter-spacing: 0.05em;
+    /* blue_04 */
+    color: #5A98D0;
+    background: none;
+    border: none;
+    display: flex;
+    width: 117px;
+    height: 27px;
+    justify-content: space-between;
+    opacity: 50%;
+    cursor: pointer;
+}
 
+.learnmore:hover{
+    opacity: 100%;
+}
 
+.imgcenter{
+    display: flex;
+    justify-content: center;
+}
 
+.our{
+    width: 100%;
+    height: 46px;
+}
+
+.mlorem{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #222222;
+    width: 750px;
+    min-height: 52px;
+    margin: 32px auto 64px auto;
+}
+
+.smarthome{
+    width: 1140px;
+    height: 480px;
+    background-image: url(img/Smart.jpg);
+}
+
+.sizeimg{
+    width: 1140px;
+    height: 480px;
+    opacity: 100%;
+}
+
+.sizeimg:hover{
+    opacity: 90%;
+}
+
+.sizeimg1{
+    width: 554px;
+    height: 417px;
+    background-image: url("img/Rectangle 2.2.png");
+}
+
+.sizeimg2{
+    width: 554px;
+    height: 417px;
+    background-image: url("img/Rectangle 2.3.png");
+}
+
+.addbg{
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgadd1{
+    background-image: url("img/Sparklite.jpg");
+}
+
+.imgadd2{
+    background-image: url("img/Rapetition.jpg");
+}
+
+.op{
+   opacity: 100%;
+}
+
+.op:hover{
+    opacity: 90%;
+}
+
+.pin{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 46px;
+    /* identical to box height, or 164% */
+    letter-spacing: 0.05em;
+    /* white */
+    color: #FFFFFF;
+    padding: 32px;
+}
+
+/*FOOTERCSS*/
 
 .footer{
     position: relative;
@@ -180,23 +317,28 @@ position: absolute;
     margin: 0 auto;
     height: 657px;
 }
+
 .pad{
     padding: 91px 113px 0 113px;
 }
+
 .pad1{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 0 113px;
 }
+
 .linef{
     opacity: 0.4;
     /* white */
     border: 1px solid #FFFFFF;
 
 }
+
 .intersted{
 }
+
 .fbutton{
     position: absolute;
     width: 236.63px;
@@ -214,9 +356,9 @@ position: absolute;
     letter-spacing: 0.04em;
     color: #FFFFFF;
     border: 0;
+    cursor: pointer;
 }
-.ftext{
-}
+
 .pfoot{
     font-family: Roboto;
     font-style: normal;
@@ -230,6 +372,7 @@ position: absolute;
     width: 341px;
     height: 92px;
 }
+
 .plorem{
     font-family: Roboto;
     font-style: normal;
@@ -245,6 +388,7 @@ position: absolute;
     margin-top: 32px;
     margin-bottom: 96px;
 }
+
 .ftable{
     font-family: Roboto;
     font-style: normal;
@@ -259,6 +403,7 @@ position: absolute;
     justify-content: space-around;
     padding: 64px 0px 32px 0;
 }
+
 .arr{
     font-family: Roboto;
     font-style: normal;
@@ -269,7 +414,8 @@ position: absolute;
          color: #FFFFFF;
          opacity: 0.4;
     padding: 32px 113px 64px 0;
-     }
+}
+
 .pt{
     width: 316px;
     padding-left: 19px;
@@ -279,6 +425,11 @@ position: absolute;
     font-size: 16px;
     line-height: 26px;
 }
+
 .pt1{
 height: 48px;
+}
+
+.fbutton:active{
+    opacity: 80%;
 }
