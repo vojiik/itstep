@@ -315,7 +315,7 @@ position: absolute;
     width: 100%;
     background-color: rgba(49, 96, 153, 1);
     margin: 0 auto;
-    height: 657px;
+    min-height: 657px;
 }
 
 .pad{
@@ -694,5 +694,33 @@ justify-content: space-between;
         width: 768px;
         height: 392px;
         margin: 64px 0;
+    }
+    .pfoot{
+        width: 336px;
+        height: 82px;
+    }
+    .plorem{
+        width: 336px;
+        height: 96px;
+        margin-bottom: 64px;
+    }
+    .fbutton{
+        left: 511px;
+        width: 133px;
+        height: 32px;
+    }
+    .ftable{
+flex-direction: column;
+        padding: 64px 0 0 0;
+    }
+    .pt{
+        margin-bottom: 25px;
+    }
+    .arr{
+        margin: 0;
+    }
+    .pt1{
+        width: 465px;
+        height: 21px;
     }
 }
