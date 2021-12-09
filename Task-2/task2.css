@@ -724,3 +724,12 @@ flex-direction: column;
         height: 21px;
     }
 }
+
+
+/*Adaptiv Mobile*/
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 375px;
+    }
+}
