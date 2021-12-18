@@ -20,6 +20,7 @@ $fontfamily3: Playfair Display;
   justify-content: space-between;
 }
 
+
 *{
   //Подкючение ограничения контейнеров для разных браузеров
   box-sizing: border-box;
@@ -98,4 +99,39 @@ $fontfamily3: Playfair Display;
         }
       }
     }
+}
+
+.headertext{
+  max-width: 643px;
+  margin: 0 auto;
+  &__MT{
+    width: 586px;
+    height: 153px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 120px;
+    line-height: 153px;
+    letter-spacing: -0.02em;
+  }
+  &__ST{
+    width: 414px;
+    height: 24px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height */
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  &__LT{
+    width: 643px;
+    height: 79px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 150%;
+    /* or 25px */
+    text-align: center;
+}
 }
