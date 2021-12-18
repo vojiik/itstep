@@ -1,0 +1,101 @@
+@import url('http://fonts.cdnfonts.com/css/noe-display');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:wght@300&display=swap');
+
+$color1: #FFFFFF;
+$color2: #41EAD4;
+$backgroundcolor1: #00C9E0;
+$backgroundcolor2: #011627;
+$backgroundcolor3: #02223B;
+$fontfamily1: Noe Display;
+$fontfamily2: Roboto Mono;
+$fontfamily3: Playfair Display;
+
+
+@mixin display-fd-c(){
+  display:flex;
+  flex-direction: column;
+}
+@mixin display-jc-sb(){
+  display:flex;
+  justify-content: space-between;
+}
+
+*{
+  //Подкючение ограничения контейнеров для разных браузеров
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+//----------------------------------------------------------------------------------------------------------------------
+.header{
+  background-image: url("../img/Hero image.png");
+  width: 100%;
+  min-height: 1194px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 83px;
+}
+.headernavigation{
+  max-width: 1433px;
+  margin: 0 auto;
+  @include display-jc-sb();
+
+  &__logo{
+    text-decoration: none;
+    color: $color1;
+    width: 60px;
+    height: 68px;
+    font-family: $fontfamily3;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 190%;
+    /* or 68px */
+    span{
+      color: $color2;
+    }
+  }
+    .search{
+      @include display-jc-sb();
+      align-items: center;
+      width: 218px;
+      height: 62px;
+      &__find{
+        &_mode{
+          width: 21px;
+          height: 21px;
+        }
+      }
+      &__menu{
+        background-color: $backgroundcolor1;
+        border: none;
+        box-shadow: 5px 15px 40px rgba(0, 201, 224, 0.2);
+        border-radius: 48px;
+        width: 167px;
+        height: 62px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 21px;
+        /* identical to box height */
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        font-family: $fontfamily2;
+        color: $color1;
+        position: relative;
+        &:active{
+          top: 1px;
+          left: 1px;
+        }
+        .search__line{
+          width: 30px;
+          height: 2px;
+          border-radius: 16px;
+          background-color: $color1;
+          position: absolute;
+          top: 30px;
+          right: -15px;
+        }
+      }
+    }
+}
