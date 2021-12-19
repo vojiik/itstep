@@ -103,35 +103,51 @@ $fontfamily3: Playfair Display;
 
 .headertext{
   max-width: 643px;
+  min-height: 320px;
   margin: 0 auto;
+  @include display-fd-c();
+  @include display-jc-sb();
+
   &__MT{
-    width: 586px;
     height: 153px;
     font-style: normal;
     font-weight: bold;
     font-size: 120px;
     line-height: 153px;
     letter-spacing: -0.02em;
+    color: $color1;
+    font-family: $fontfamily1;
   }
   &__ST{
-    width: 414px;
     height: 24px;
     font-style: normal;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 24px;
     /* identical to box height */
     letter-spacing: 0.1em;
     text-transform: uppercase;
+    color: $color1;
+    font-family: $fontfamily2;
+    text-align: center;
   }
   &__LT{
-    width: 643px;
     height: 79px;
     font-style: normal;
     font-weight: normal;
-    font-size: 17px;
+    font-size: 12px;
     line-height: 150%;
     /* or 25px */
     text-align: center;
+    color: $color1;
+    font-family: $fontfamily2;
+    line-height: 200%;
 }
+}
+
+.scroll{
+
+  &__contacts{
+    
+  }
 }
