@@ -1,6 +1,5 @@
 @import url("http://fonts.cdnfonts.com/css/noe-display");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:wght@300&display=swap");
-
 * {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -15,7 +14,7 @@
   padding-top: 83px; }
 
 .headernavigation {
-  max-width: 1433px;
+  max-width: 1310px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between; }
@@ -69,3 +68,97 @@
         position: absolute;
         top: 30px;
         right: -15px; }
+
+.headertext {
+  max-width: 643px;
+  min-height: 320px;
+  margin: 156px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center; }
+  .headertext__MT {
+    width: 643px;
+    height: 153px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 120px;
+    line-height: 153px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF; }
+  .headertext__ST {
+    width: 643px;
+    height: 24px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height */
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF; }
+  .headertext__LT {
+    width: 643px;
+    height: 79px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 25px */
+    text-align: center;
+    color: #FFFFFF; }
+
+.allsocial {
+  max-width: 1411px;
+  height: 377px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.social {
+  width: 155px;
+  height: 28px;
+  transform: rotate(270deg);
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .social__line {
+    width: 80px;
+    height: 2px;
+    border-radius: 16px;
+    background-color: #41EAD4; }
+  .social__scroll {
+    width: 60px;
+    height: 28px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 190%;
+    /* or 28px */
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    font-family: Roboto Mono;
+    transform: rotate(0deg); }
+
+.socialweb {
+  width: 109px;
+  height: 22px;
+  margin-left: 10px;
+  transform: rotate(90deg);
+  display: flex;
+  justify-content: space-between; }
+  .socialweb__bird {
+    width: 22px;
+    height: 18px;
+    transform: rotate(270deg); }
+  .socialweb__instagram {
+    width: 20px;
+    height: 20px;
+    transform: rotate(270deg); }
+  .socialweb__facebook {
+    width: 11px;
+    height: 20px;
+    transform: rotate(270deg); }
+
+/*# sourceMappingURL=style.css.map */

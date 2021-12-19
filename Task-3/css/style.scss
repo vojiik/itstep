@@ -1,8 +1,8 @@
 @import url('http://fonts.cdnfonts.com/css/noe-display');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:wght@300&display=swap');
 
-$color1: #FFFFFF;
-$color2: #41EAD4;
+$white: #FFFFFF;
+$turquoise: #41EAD4;
 $backgroundcolor1: #00C9E0;
 $backgroundcolor2: #011627;
 $backgroundcolor3: #02223B;
@@ -11,9 +11,10 @@ $fontfamily2: Roboto Mono;
 $fontfamily3: Playfair Display;
 
 
-@mixin display-fd-c(){
+@mixin display-fd-c-jc-sb(){
   display:flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 @mixin display-jc-sb(){
   display:flex;
@@ -35,15 +36,16 @@ $fontfamily3: Playfair Display;
   background-repeat: no-repeat;
   background-size: 100%;
   padding-top: 83px;
+
 }
 .headernavigation{
-  max-width: 1433px;
+  max-width: 1310px;
   margin: 0 auto;
   @include display-jc-sb();
 
   &__logo{
     text-decoration: none;
-    color: $color1;
+    color: $white;
     width: 60px;
     height: 68px;
     font-family: $fontfamily3;
@@ -53,7 +55,7 @@ $fontfamily3: Playfair Display;
     line-height: 190%;
     /* or 68px */
     span{
-      color: $color2;
+      color: $turquoise;
     }
   }
     .search{
@@ -82,7 +84,7 @@ $fontfamily3: Playfair Display;
         letter-spacing: 0.1em;
         text-transform: uppercase;
         font-family: $fontfamily2;
-        color: $color1;
+        color: $white;
         position: relative;
         &:active{
           top: 1px;
@@ -92,7 +94,7 @@ $fontfamily3: Playfair Display;
           width: 30px;
           height: 2px;
           border-radius: 16px;
-          background-color: $color1;
+          background-color: $white;
           position: absolute;
           top: 30px;
           right: -15px;
@@ -103,18 +105,23 @@ $fontfamily3: Playfair Display;
 
 .headertext{
   max-width: 643px;
-  margin: 0 auto;
+  min-height: 320px;
+  margin: 156px auto 0 auto;
+  @include display-fd-c-jc-sb();
+  text-align: center;
+
   &__MT{
-    width: 586px;
+    width: 643px;
     height: 153px;
     font-style: normal;
     font-weight: bold;
     font-size: 120px;
     line-height: 153px;
     letter-spacing: -0.02em;
+    color: $white;
   }
   &__ST{
-    width: 414px;
+    width: 643px;
     height: 24px;
     font-style: normal;
     font-weight: bold;
@@ -123,15 +130,76 @@ $fontfamily3: Playfair Display;
     /* identical to box height */
     letter-spacing: 0.1em;
     text-transform: uppercase;
+    color: $white;
   }
   &__LT{
     width: 643px;
     height: 79px;
     font-style: normal;
     font-weight: normal;
-    font-size: 17px;
+    font-size: 18px;
     line-height: 150%;
     /* or 25px */
     text-align: center;
+    color: $white;
 }
+}
+.allsocial{
+  max-width: 1411px;
+  height: 377px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social{
+  width: 155px;
+  height: 28px;
+  transform: rotate(270deg);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__line{
+    width: 80px;
+    height: 2px;
+    border-radius: 16px;
+    background-color: $turquoise;
+  }
+  &__scroll{
+    width: 60px;
+    height: 28px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 190%;
+    /* or 28px */
+    letter-spacing: 0.05em;
+    color: $white;
+    font-family: $fontfamily2;
+    transform: rotate(0deg);
+  }
+}
+
+.socialweb{
+  width: 109px;
+  height: 22px;
+  margin-left: 10px;
+  transform: rotate(90deg);
+  display: flex;
+  justify-content: space-between;
+&__bird{
+  width: 22px;
+  height: 18px;
+  transform: rotate(270deg);
+}
+  &__instagram{
+    width: 20px;
+    height: 20px;
+    transform: rotate(270deg);
+  }
+  &__facebook{
+    width: 11px;
+    height: 20px;
+    transform: rotate(270deg);
+  }
 }
