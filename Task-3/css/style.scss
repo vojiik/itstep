@@ -34,10 +34,19 @@ $fontfamily3: Playfair Display;
   width: 100%;
   min-height: 1194px;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   padding-top: 83px;
-
+  background-position: center;
+  position: relative;
 }
+
+.bgimg{
+  background-image: url("../img/Gradient transition.png");
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
 .headernavigation{
   max-width: 1310px;
   margin: 0 auto;
@@ -144,6 +153,7 @@ $fontfamily3: Playfair Display;
     color: $white;
 }
 }
+
 .allsocial{
   max-width: 1411px;
   height: 377px;
